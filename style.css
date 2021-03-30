@@ -1,0 +1,35 @@
+body{
+    background-image: url("backgroundtouse.jpeg");
+    background-size: cover;
+    font-family: 'Audiowide', cursive;
+    background-position: center;
+}
+.heading
+{
+font-size: 20px;
+width:100%;
+margin: 0px;
+background-color: aqua;
+font-variant: small-caps;
+border-bottom-left-radius: 20;
+border-bottom-right-radius: 20;
+box-shadow: 5px 5px 5px gold;
+}
+
+#status, #no.ofobjects
+{
+font-size: 18px;
+padding: 10px;
+}
+
+canvas{
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+    border: 2px solid aqua;
+}
+@keyframes test{
+from{box-shadow: 1px 1px 60px red;}
+to{box-shadow: 1px 1px 60px gold;}
+}
